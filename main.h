@@ -7,6 +7,7 @@
 
 int _strlen(const char *);
 int print(char *);
+char *int_to_ascii(long int num, int base);
 
 int _printf(const char *, ...);
 
@@ -15,6 +16,7 @@ int percent_handler(const char *, va_list, int *);
 
 int str_print(va_list);
 int char_print(va_list);
+int int_print(va_list);
 
 int _putchar(char);
 int buffer(char);
