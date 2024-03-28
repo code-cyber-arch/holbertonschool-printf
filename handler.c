@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _strlen - Calculates the length of a string.
@@ -72,7 +72,7 @@ int percent_handler(const char *str, va_list list, int *i)
 	int size, j, number_formats;
 
 	format formats[] = {
-		{'s', print_string}, {'c', print_char}
+		{'s', str_print}, {'c', char_print}
 	};
 	*i = *i + 1;
 	if (str[*i] == '\0')
