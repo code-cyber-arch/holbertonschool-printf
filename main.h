@@ -17,6 +17,7 @@ int percent_handler(const char *, va_list, int *);
 int str_print(va_list);
 int char_print(va_list);
 int int_print(va_list);
+int binary_print(va_list);
 
 int _putchar(char);
 int buffer(char);
