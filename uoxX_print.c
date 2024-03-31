@@ -9,8 +9,13 @@
 
 int unsigned_print(va_list list)
 {
-	return (print(int_to_ascii(va_arg(list, unsigned int),
-				    10) ?: "NULL"));
+	char *buff_p;
+
+	buff_p = int_to_ascii(va_arg(list, unsigned int), 10);
+	if (buff_p != NULL)
+		return (print(buff_p));
+	else
+		return (print("NULL"));
 }
 
 /**
