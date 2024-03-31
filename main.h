@@ -22,6 +22,7 @@ int unsigned_print(va_list);
 int octal_print(va_list);
 int hex_low_print(va_list);
 int hex_upp_print(va_list);
+int S_print(va_list);
 
 int _putchar(char);
 int buffer(char);
