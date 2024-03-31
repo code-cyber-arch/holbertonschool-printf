@@ -73,7 +73,8 @@ int percent_handler(const char *str, va_list list, int *i)
 
 	format formats[] = {
 		{'s', str_print}, {'c', char_print}, {'i', int_print},
-		{'d', int_print}, {'b', binary_print}
+		{'d', int_print}, {'b', binary_print}, {'u', unsigned_print},
+		{'o', octal_print}, {'x', hex_low_print}, {'X', hex_upp_print}
 	};
 	*i = *i + 1;
 	if (str[*i] == '\0')

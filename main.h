@@ -18,6 +18,10 @@ int str_print(va_list);
 int char_print(va_list);
 int int_print(va_list);
 int binary_print(va_list);
+int unsigned_print(va_list);
+int octal_print(va_list);
+int hex_low_print(va_list);
+int hex_upp_print(va_list);
 
 int _putchar(char);
 int buffer(char);
