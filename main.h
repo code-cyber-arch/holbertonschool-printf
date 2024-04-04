@@ -22,9 +22,14 @@ int unsigned_print(va_list);
 int octal_print(va_list);
 int hex_low_print(va_list);
 int hex_upp_print(va_list);
+int pointer_print(va_list);
+int rev_string_print(va_list);
+int rot13_print(va_list);
 
 int _putchar(char);
 int buffer(char);
+int _strcmp(char, char);
+int rot13(char);
 
 /**
  * struct _format - Typedef struct
