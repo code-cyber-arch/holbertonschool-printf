@@ -48,9 +48,9 @@ int main() {
     _printf("Character: %c\n", 'A');
     // Integer
     _printf("Integer: %i\n", 123);
-    // Decimal (Assuming %d is used similarly to %i for integers)
+    // Decimal 
     _printf("Decimal: %d\n", 12345);
-    // Binary (Assuming your _printf supports binary format)
+    // Binary
     _printf("Binary: %b\n", 5); // Expected output: 101
     // Hexadecimal lowercase
     _printf("Hexadecimal (lowercase): %x\n", 255); // Expected output: ff
