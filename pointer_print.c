@@ -14,7 +14,7 @@ int pointer_print(va_list list)
 	char *p_buff;
 	int size;
 
-	p_buff = itoa(va_arg(list, unsigned long int), 16);
+	p_buff = int_to_ascii(va_arg(list, unsigned long int), 16);
 
 	if (!_strcmp(p_buff, "0"))
 		return (print("(nil)"));

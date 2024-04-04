@@ -28,7 +28,6 @@ int rot13_print(va_list);
 
 int _putchar(char);
 int buffer(char);
-int _strcmp(char, char);
 int rot13(char);
 
 /**
