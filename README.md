@@ -39,7 +39,7 @@ In this program, the Main Function serves as the entry point, initiating the pro
 ## Usage with Example
 
 ```sh
-#include <stdio.h>
+#include "main.h" //include custom _printf function
 
 int main() {
     // String
