@@ -28,7 +28,7 @@ int rot13_print(va_list);
 
 int _putchar(char);
 int buffer(char);
-int rot13(char);
+int rot13(char *);
 
 /**
  * struct _format - Typedef struct
